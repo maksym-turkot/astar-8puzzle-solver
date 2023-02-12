@@ -8,9 +8,9 @@ Program is completely configured by the puzzleConfig files, and it takes no inpu
 
 Configuration files must be located in the project1/data/puzzleConfig folder. The structure of the file is as follows:
 
-size: \<size\>    // Size of the puzzle (2/3/4…).
-seed: \<seed\>    // Random seed.
-swaps: \<swaps\>    // Number of random swaps from goal state (randomization).
+size: \<size\>    // Size of the puzzle (2/3/4…). <br>
+seed: \<seed\>    // Random seed. <br>
+swaps: \<swaps\>    // Number of random swaps from goal state (randomization). <br>
 number: \<number\>    // Number of initial states generated.
 
 The phrase “puzzleConfig” must be present in the filename. The following naming convention is recommended:
@@ -19,7 +19,7 @@ puzzleConfig-\<size\>-\<seed\>-\<swaps\>-\<number\>.txt
 
 For example:
 
-puzzleConfig-3-111-200-100.txt
+puzzleConfig-3-111-200-100.txt <br>
 puzzleConfig-4-2323-30-50.txt
 
 ## Running the program
@@ -34,7 +34,7 @@ make clean - removes compiled .class files.
 
 When running, program will first read puzzleConfig files and generate puzzle sets, and then save them to the data/puzzleSet folder. The puzzleSet file simply stores string representations of puzzle 2D arrays. The naming format of a puzzleSet file is similar to the puzzleConfig one, and must not be modified:
 
-puzzleSet-3-111-200-100.txt
+puzzleSet-3-111-200-100.txt <br>
 puzzleSet-4-2323-30-50.txt
 
 Each puzzleSet file corresponds to one puzzleConfig file. User has no need to edit or add puzzleSet files, even though they may inspect files to see what puzzles are being solved.
