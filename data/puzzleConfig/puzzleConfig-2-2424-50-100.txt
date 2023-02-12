@@ -1,0 +1,4 @@
+size: 2
+seed: 2424
+swaps: 50
+number: 100

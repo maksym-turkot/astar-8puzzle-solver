@@ -1,0 +1,57 @@
+************************
+size:          4
+seed:          2424
+swaps:         40
+number:        100
+========================
+H1: Number Misplaced
+------------------------
+expanded:      93.97
+treeDepth:     9.01
+execTime (ms): 0.9251996
+------------------------
+H2: Manhattan Distance
+------------------------
+expanded:      42.97
+treeDepth:     9.01
+execTime (ms): 0.34823513
+************************
+
+************************
+size:          3
+seed:          2424
+swaps:         80
+number:        100
+========================
+H1: Number Misplaced
+------------------------
+expanded:      543.39
+treeDepth:     11.37
+execTime (ms): 4.31692642
+------------------------
+H2: Manhattan Distance
+------------------------
+expanded:      151.51
+treeDepth:     11.37
+execTime (ms): 0.44520509999999996
+************************
+
+************************
+size:          2
+seed:          2424
+swaps:         50
+number:        100
+========================
+H1: Number Misplaced
+------------------------
+expanded:      5.56
+treeDepth:     2.73
+execTime (ms): 0.00797164
+------------------------
+H2: Manhattan Distance
+------------------------
+expanded:      4.17
+treeDepth:     2.73
+execTime (ms): 0.00553136
+************************
+
