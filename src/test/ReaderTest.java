@@ -26,7 +26,7 @@ public class ReaderTest {
         System.out.println(file.getAbsolutePath());
         
         
-        this.reader.readFile("/Users/maxtur/Documents/git-pre/search-8puzzle-solver/data/puzzleConfig/" + 
+        this.reader.readFile("../../data/puzzleConfig/" + 
                 "puzzleConfig-3-2424-80-100.txt", 0, 0);
 
         assertEquals(2424, reader.getPSeed());
